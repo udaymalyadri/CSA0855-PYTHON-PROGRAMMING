@@ -1,0 +1,9 @@
+bread=int(input("enter number of fresh loaves purchased:"))
+loaves = int(input("enter number of day old loaves purchased:"))
+regular_price = 185
+discount = 185-regular_price * 0.6
+total_price = bread*regular_price+loaves*discount
+print("regular price:",regular_price)
+print("ammount of new loaves:",bread*regular_price)
+print("ammount of day old loaves:",loaves*discount)
+print("total price:",total_price)
