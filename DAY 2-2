@@ -1,0 +1,13 @@
+def sumsquare(l):
+    odd=0
+    even=0
+    for i in l:
+        if i % 2==0:
+            even +=i**2
+        else:
+            odd +=i**2
+    return [odd,even]
+print(sumsquare([18,9,1,12,13,4,30]))
+print(sumsquare([1,2,3,4,5]))
+print(sumsquare([2,4,5,6,7,11,12,13]))
+print(sumsquare([12,10,11,12]))
